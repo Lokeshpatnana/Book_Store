@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+  }
+.nav{
+    display: flex;
+    background-color: black;
+    border-radius: 14px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 16px;
+    background-image: url(https://images.unsplash.com/photo-1596218571775-4726a2d23bd9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: contain;
+}
+h1{
+    color: whitesmoke;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+}
+h1 span{
+    color: yellow;
+}
+h2 b{
+    color: whitesmoke;
+}
+label{
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+button{
+    background-color: black;
+    color: yellow;
+    padding: 7px;
+    font-weight: bold;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+}
+input{
+    background-color: transparent;
+    color: whitesmoke;
+    border: 1px solid;
+}
+.item{
+    background-image: url();
+    border: 1px solid;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+}
+#showItems{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-areas: none;
+}
+body{
+    /* background-image: url(https://img.freepik.com/free-photo/tall-smart-arab-student-man-wear-violet-turtleneck-eyeglasses-library-read-book_627829-1004.jpg?w=1060&t=st=1663754468~exp=1663755068~hmac=caf47d6d7bca13893d28b2c8a81b614b01cbd66ca09cc0fc3d34b9e83d5d2d6b); */
+    background-size: cover;
+}

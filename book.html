@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Lokesh <span>Book Store</span></h1><br>
+    </div><br>
+    <div class="card">
+        <h2><b>Search Book Here...!</b></h2>
+        <label for="">Book Name:</label>
+        <input type="text"  id="name"><br>
+        <label for="">Description:</label>
+        <input type="text"  id="desc"><br>
+        <label for="">Price in Rupees(₹):</label>
+        <input type="number"  id="price"><br>
+        <button onclick="addbook()">Add Book</button>
+    </div>
+    <div id="showItems">
+
+    </div>
+    <script src="book.js"></script>
+</body>
+</html>
